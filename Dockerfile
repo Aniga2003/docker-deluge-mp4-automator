@@ -1,4 +1,4 @@
-FROM linuxserver/deluge
+FROM linuxserver/deluge:amd64-2c30e506-ls16 
 
 RUN \
   apt-get update && \
